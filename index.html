@@ -1,0 +1,56 @@
+<html>
+
+<head>
+
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+
+<script>
+    var main2 = function(){
+	$("#baconcheck").click(function(){
+	
+      $("#bacon").toggleClass('offset');
+	 
+    });
+	}
+$(document).ready(main2);
+</script>
+
+<script>
+    var main3 = function(){
+	$("#kanyecheck").click(function () {
+      
+      $("#kanye").toggleClass('offset2');
+	  
+    });
+	}
+
+$(document).ready(main3);
+</script>
+</head>
+
+<body>
+
+<div id="pizza-wrapper">
+	
+	<div id="bacon" class="offset"> <img id="bacon" src="bacon-bkg.png" /></div>
+	<div id="kanye" class="offset2"> <img id="kanye" src="kanye-bkg.png" /></div>
+	<div id="cheese" class="cheese"></div>
+	
+		
+		
+		
+		
+		
+	</div>
+
+ <div class="topping"> <label><input class="selectTopping" id="baconcheck" name="bacon" type="checkbox"> Bacon</label></div>
+  <div class="topping"> <label><input class="selectTopping" id="kanyecheck" name="kanye" type="checkbox"> Kanye</label></div>
+ 
+ 
+</body>
+
+</html>
+
